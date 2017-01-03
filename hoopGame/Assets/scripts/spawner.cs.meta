@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 42c9dd38d779748f2810d0a4e29a1309
+timeCreated: 1482099869
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - basketBall: {fileID: 117996, guid: 489a0770cc4dc4b45a30dcb30e863bce, type: 2}
+  - bowlingBall: {fileID: 104612, guid: 74e4192b8d96b4ed2bdc5b87ca53cfe0, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
