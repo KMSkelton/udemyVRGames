@@ -14,6 +14,7 @@ public class cameraMovement : MonoBehaviour {
 		float mouseY = Input.GetAxis ("Mouse Y"); // up and down
 		float mouseX = Input.GetAxis ("Mouse X"); // left and right
 		transform.localRotation *=  Quaternion.Euler (0, mouseX * rotationSpeed, 0);
-		GetComponentInChildren<Camera>().transform.localRotation *= Quaternion.Euler(mouseY * rotationSpeed, 0, 0);
+		Camera camera = GetComponentInChildren<Camera> ();
+		camera.transform.localRotation *= Quaternion.Euler(mouseY * rotationSpeed, 0, 0);
 	}
 }

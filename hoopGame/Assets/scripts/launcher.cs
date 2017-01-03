@@ -5,7 +5,7 @@ public class launcher : MonoBehaviour {
 
 	public GameObject basketBall;
 	public GameObject bowlingBall;
-	public float ballSpeed = 1.0f;
+	public float ballSpeed = 0.1f;
 
 	// Use this for initialization
 	void Start () {
@@ -25,17 +25,18 @@ public class launcher : MonoBehaviour {
 		Camera camera = GetComponentInChildren<Camera> ();
 			
 		Rigidbody rb = instance.GetComponent<Rigidbody> ();
-		rb.velocity = camera.transform.localRotation * new Vector3(x, y, z) * ballSpeed;
+		rb.velocity = camera.transform.rotation * new Vector3(x, y, z) * ballSpeed;
 
 
 	}
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown (KeyCode.Space)) {
-			makeBall (5, -2, 0, "bowlingBall");
+			makeBall (0, 1, 5, "bowlingBall");
 		}
-		if (Input.GetButton ("Fire1")) {
-			makeBall (10, 0, 0);
+		if (Input.GetButtonDown ("Fire1")) {
+			print ("Fire 1!!");
+			makeBall (0, 0, 10);
 		}
 	}
 }
