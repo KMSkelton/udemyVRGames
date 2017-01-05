@@ -4,9 +4,10 @@ using System.Collections;
 public class scoreKeeper : MonoBehaviour {
 	public int score = 0;
 
-	void OnCollisionEnter(Collision collision) {
+	public void IncrementScore(int amount) 
+	{
 		print ("Ball hit target");
-		score += 1;
+		score += amount;
 		print("Score = " + score);
 	}
 }

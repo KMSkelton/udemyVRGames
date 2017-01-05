@@ -79,6 +79,7 @@
 -define:UNITY_EDITOR_OSX
 -define:UNITY_TEAM_LICENSE
 'Assets/scripts/cameraMovement.cs'
+'Assets/scripts/detect.cs'
 'Assets/scripts/launcher.cs'
 'Assets/scripts/scoreKeeper.cs'
 'Assets/scripts/spawner.cs'
