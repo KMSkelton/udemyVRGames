@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\scripts\cameraMovement.cs" />
      <Compile Include="Assets\scripts\launcher.cs" />
+     <Compile Include="Assets\scripts\scoreKeeper.cs" />
      <Compile Include="Assets\scripts\spawner.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
