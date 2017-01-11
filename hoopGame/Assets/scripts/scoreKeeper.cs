@@ -2,7 +2,11 @@
 using System.Collections;
 
 public class scoreKeeper : MonoBehaviour {
-	public int score = 0;
+	public int score;
+
+	void Start () {
+		score = 0;
+	}
 
 	public void IncrementScore(int amount) 
 	{

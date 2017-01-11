@@ -78,6 +78,7 @@
 -define:UNITY_EDITOR_64
 -define:UNITY_EDITOR_OSX
 -define:UNITY_TEAM_LICENSE
+'Assets/_scenes/levleManager.cs'
 'Assets/scripts/cameraMovement.cs'
 'Assets/scripts/detect.cs'
 'Assets/scripts/launcher.cs'

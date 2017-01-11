@@ -81,6 +81,7 @@
 'Assets/scripts/cameraMovement.cs'
 'Assets/scripts/detect.cs'
 'Assets/scripts/launcher.cs'
+'Assets/scripts/levelManager.cs'
 'Assets/scripts/scoreKeeper.cs'
 'Assets/scripts/spawner.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
