@@ -4,31 +4,35 @@ using UnityEngine.SceneManagement;
 
 public class levelManager : MonoBehaviour {
 
+	public float timeRemaining = 5.0f;
+
 	public int currentIndex;
 	// Use this for initialization
 	void Start () {
-
-		currentIndex = SceneManager.GetActiveScene ().buildIndex;
 	}
-	
-	// Update is called once per frame
-	void Update () {
+	 void Update () {
+		if (Input.GetKeyDown (KeyCode.Escape)) { 
+			LoadNextScene ();
+		} 
 
-		if (Input.GetKeyDown (KeyCode.Space) ) {
-			SceneManager.LoadScene(currentIndex +1);
+		if (timeRemaining > 0) {
+			
+		timeRemaining -= Time.deltaTime;
+
+			if (timeRemaining < 0) {
+				LoadNextScene();
+			}
 		}
-
 	}
+
+	public void LoadNextScene() {
+	 	int currentIndex = SceneManager.GetActiveScene().buildIndex;
+		SceneManager.LoadScene (currentIndex + 1);
+	}
+
+	public void LoadPreviousScene() {
+		int currentIndex = SceneManager.GetActiveScene().buildIndex;
+		SceneManager.LoadScene (currentIndex - 1);
+	}
+
 }
-
-
-// Instructor's method: 
-// void Update () {
-// if (Input.GetKeyDown (KeyCode.Space) ) { 
-// LoadNextScene();
-// 	  } 
-//  }
-// void LoadNextScene () {
-// int currentIndex = SceneManager.GetActiveScene().buildIndex;
-// SceneManager.LoadScene(currentIndex +1)
-// }

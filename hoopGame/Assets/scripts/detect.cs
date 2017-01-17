@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class detect : MonoBehaviour {
 	public int scorePerHit = 1;
 

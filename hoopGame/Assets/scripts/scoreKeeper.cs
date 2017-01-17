@@ -2,9 +2,11 @@
 using System.Collections;
 
 public class scoreKeeper : MonoBehaviour {
+	
 	public int score;
 
 	void Start () {
+		DontDestroyOnLoad (gameObject);
 		score = 0;
 	}
 

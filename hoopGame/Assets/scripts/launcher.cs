@@ -31,11 +31,10 @@ public class launcher : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown (KeyCode.Space)) {
+		if (Input.GetKeyDown (KeyCode.V)) {
 			makeBall (0, 1, 5, "bowlingBall");
 		}
 		if (Input.GetButtonDown ("Fire1")) {
-			print ("Fire 1!!");
 			makeBall (0, 0, 10);
 		}
 	}
