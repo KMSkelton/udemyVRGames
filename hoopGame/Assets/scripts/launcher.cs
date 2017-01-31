@@ -35,7 +35,7 @@ public class launcher : MonoBehaviour {
 			makeBall (0, 1, 5, "bowlingBall");
 		}
 		if (Input.GetButtonDown ("Fire1")) {
-			makeBall (0, 0, 10);
+			makeBall (0, 2, 3);
 		}
 	}
 }

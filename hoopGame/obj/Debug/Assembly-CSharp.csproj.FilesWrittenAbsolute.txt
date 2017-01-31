@@ -1,0 +1,17 @@
+/Users/kristopherskelton/udemyVRGames/hoopGame/Temp/bin/Debug/UnityEngine.dll
+/Users/kristopherskelton/udemyVRGames/hoopGame/Temp/bin/Debug/UnityEditor.dll
+/Users/kristopherskelton/udemyVRGames/hoopGame/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/kristopherskelton/udemyVRGames/hoopGame/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/kristopherskelton/udemyVRGames/hoopGame/Temp/bin/Debug/Mono.Cecil.dll
+/Users/kristopherskelton/udemyVRGames/hoopGame/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/kristopherskelton/udemyVRGames/hoopGame/Temp/bin/Debug/Unity.DataContract.dll
+/Users/kristopherskelton/udemyVRGames/hoopGame/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/kristopherskelton/udemyVRGames/hoopGame/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/kristopherskelton/udemyVRGames/hoopGame/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/kristopherskelton/udemyVRGames/hoopGame/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/kristopherskelton/udemyVRGames/hoopGame/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/kristopherskelton/udemyVRGames/hoopGame/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/kristopherskelton/udemyVRGames/hoopGame/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/kristopherskelton/udemyVRGames/hoopGame/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/kristopherskelton/udemyVRGames/hoopGame/obj/Debug/Assembly-CSharp.dll
+/Users/kristopherskelton/udemyVRGames/hoopGame/obj/Debug/Assembly-CSharp.dll.mdb
