@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{1121C0F4-35E1-F20A-C3D4-CF3772094294}") = "numberWizard", "Assembly-CSharp.csproj", "{A94E0AB6-B5D1-5BE6-9346-6DB9978FEE38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A94E0AB6-B5D1-5BE6-9346-6DB9978FEE38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94E0AB6-B5D1-5BE6-9346-6DB9978FEE38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94E0AB6-B5D1-5BE6-9346-6DB9978FEE38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94E0AB6-B5D1-5BE6-9346-6DB9978FEE38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
